@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Share Tech Mono', 'Courier New', monospace;
   background: #0a0a0a;
@@ -114,6 +118,18 @@ main {
   min-width: 0;
 }
 
+.content hr {
+  border: none;
+  border-top: 1px solid #c9a961;
+  margin: 40px 0;
+  opacity: 0.3;
+}
+
+.content em {
+  color: #b8860b;
+  font-style: normal;
+}
+
 .post-title {
   font-size: 24px;
   text-transform: uppercase;
@@ -145,10 +161,26 @@ main {
   color: #c9a961;
 }
 
-.post-content h2 {
+.post-content h2,
+.content h2 {
   font-size: 18px;
   border-bottom: 1px solid #c9a961;
   padding-bottom: 5px;
+  margin-top: 40px;
+  scroll-margin-top: 20px;
+}
+
+.content h2:first-of-type {
+  margin-top: 20px;
+}
+
+.content h3 {
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #c9a961;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .post-content p {
