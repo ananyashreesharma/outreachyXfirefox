@@ -10,9 +10,9 @@ body {
   font-family: 'Share Tech Mono', 'Courier New', monospace;
   background: #0a0a0a;
   background-image: 
-    repeating-linear-gradient(0deg, rgba(0, 255, 0, 0.03) 0px, transparent 1px, transparent 2px, rgba(0, 255, 0, 0.03) 3px),
-    repeating-linear-gradient(90deg, rgba(0, 255, 0, 0.03) 0px, transparent 1px, transparent 2px, rgba(0, 255, 0, 0.03) 3px);
-  color: #00ff00;
+    repeating-linear-gradient(0deg, rgba(201, 169, 97, 0.02) 0px, transparent 1px, transparent 2px, rgba(201, 169, 97, 0.02) 3px),
+    repeating-linear-gradient(90deg, rgba(201, 169, 97, 0.02) 0px, transparent 1px, transparent 2px, rgba(201, 169, 97, 0.02) 3px);
+  color: #c9a961;
   line-height: 1.6;
   padding: 20px;
   min-height: 100vh;
@@ -27,8 +27,8 @@ body::before {
   width: 100%;
   height: 100%;
   background: 
-    radial-gradient(circle at 20% 50%, rgba(0, 255, 0, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(0, 255, 0, 0.05) 0%, transparent 50%);
+    radial-gradient(circle at 20% 50%, rgba(201, 169, 97, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(201, 169, 97, 0.03) 0%, transparent 50%);
   pointer-events: none;
   z-index: 0;
 }
@@ -41,7 +41,7 @@ body::before {
 }
 
 header {
-  border-bottom: 2px solid #00ff00;
+  border-bottom: 2px solid #c9a961;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
@@ -55,7 +55,7 @@ header {
 
 .site-title {
   font-size: 14px;
-  color: #00ff00;
+  color: #c9a961;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -68,13 +68,13 @@ header {
 
 .tagline {
   font-size: 12px;
-  color: #00ff00;
+  color: #c9a961;
   opacity: 0.8;
 }
 
 .contact-link {
   font-size: 14px;
-  color: #00ff00;
+  color: #c9a961;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -84,14 +84,14 @@ header {
 }
 
 nav {
-  border-top: 1px solid #00ff00;
-  border-bottom: 1px solid #00ff00;
+  border-top: 1px solid #c9a961;
+  border-bottom: 1px solid #c9a961;
   padding: 10px 0;
   margin: 10px 0;
 }
 
 nav a {
-  color: #00ff00;
+  color: #c9a961;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 20px;
@@ -119,12 +119,12 @@ main {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  color: #00ff00;
+  color: #c9a961;
 }
 
 .post-date {
   font-size: 14px;
-  color: #00ff00;
+  color: #c9a961;
   opacity: 0.8;
   margin-bottom: 20px;
 }
@@ -132,7 +132,7 @@ main {
 .post-content {
   font-size: 14px;
   line-height: 1.8;
-  color: #00ff00;
+  color: #c9a961;
 }
 
 .post-content h1,
@@ -142,12 +142,12 @@ main {
   letter-spacing: 1px;
   margin-top: 30px;
   margin-bottom: 15px;
-  color: #00ff00;
+  color: #c9a961;
 }
 
 .post-content h2 {
   font-size: 18px;
-  border-bottom: 1px solid #00ff00;
+  border-bottom: 1px solid #c9a961;
   padding-bottom: 5px;
 }
 
@@ -156,12 +156,16 @@ main {
 }
 
 .post-content a {
-  color: #00ff00;
+  color: #d4a574;
   text-decoration: underline;
 }
 
+.post-content a:visited {
+  color: #b8860b;
+}
+
 .post-content a:hover {
-  background-color: #00ff00;
+  background-color: #c9a961;
   color: #0a0a0a;
 }
 
@@ -188,11 +192,11 @@ main {
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #00ff00;
+  color: #c9a961;
 }
 
 .keyword {
-  color: #00ff00;
+  color: #c9a961;
   margin-bottom: 8px;
   line-height: 1.6;
 }
@@ -202,12 +206,17 @@ main {
 }
 
 .keyword a {
-  color: #00ff00;
+  color: #d4a574;
   text-decoration: none;
+}
+
+.keyword a:visited {
+  color: #b8860b;
 }
 
 .keyword a:hover {
   text-decoration: underline;
+  color: #e6c896;
 }
 
 .home-title {
@@ -215,7 +224,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 20px;
-  color: #00ff00;
+  color: #c9a961;
 }
 
 .home-content {
@@ -239,28 +248,33 @@ main {
   content: '> ';
   position: absolute;
   left: 0;
-  color: #00ff00;
+  color: #c9a961;
 }
 
 .posts-list a {
-  color: #00ff00;
+  color: #d4a574;
   text-decoration: none;
   font-size: 14px;
 }
 
+.posts-list a:visited {
+  color: #b8860b;
+}
+
 .posts-list a:hover {
   text-decoration: underline;
+  color: #e6c896;
 }
 
 .post-meta {
   font-size: 12px;
-  color: #00ff00;
+  color: #c9a961;
   opacity: 0.7;
   margin-left: 10px;
 }
 
 footer {
-  border-top: 2px solid #00ff00;
+  border-top: 2px solid #c9a961;
   margin-top: 50px;
   padding-top: 20px;
   display: flex;
@@ -276,19 +290,19 @@ footer {
 .footer-title {
   font-size: 16px;
   font-weight: bold;
-  color: #00ff00;
+  color: #c9a961;
   margin-bottom: 5px;
 }
 
 .footer-subtitle {
   font-size: 12px;
-  color: #00ff00;
+  color: #c9a961;
   opacity: 0.7;
 }
 
 .footer-right {
   font-size: 12px;
-  color: #00ff00;
+  color: #c9a961;
   text-align: right;
   line-height: 1.6;
 }
@@ -310,7 +324,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 2px;
-  background: rgba(0, 255, 0, 0.1);
+  background: rgba(201, 169, 97, 0.08);
   animation: scanline 8s linear infinite;
   pointer-events: none;
   z-index: 9999;
