@@ -53,7 +53,8 @@ My task is to expand those native error pages to cover common error types. I'll 
 
 ### THIS BLOG
 
-This blog is where I'll share short, focused updates about the journey and my progress over time.
+This blog is where I'll share short, focused updates about the journey and my progress over time
+
 ---
 
 ## Everybody Struggles {#everybody-struggles}
