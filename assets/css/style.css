@@ -24,23 +24,29 @@ body {
 }
 
 /* Global link styles - override browser defaults */
-a:link {
-  color: #b8b8b8;
+a:link,
+a:link:visited {
+  color: #b8b8b8 !important;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #989898;
+  color: #989898 !important;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #d0d0d0;
+  color: #d0d0d0 !important;
   text-decoration: underline;
 }
 
 a:active {
-  color: #c0c0c0;
+  color: #c0c0c0 !important;
+}
+
+/* Ensure all links use gray colors */
+a {
+  color: #b8b8b8 !important;
 }
 
 body::before {
@@ -98,17 +104,17 @@ header {
 
 .contact-link {
   font-size: 14px;
-  color: #b8b8b8;
+  color: #b8b8b8 !important;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .contact-link:visited {
-  color: #989898;
+  color: #989898 !important;
 }
 
 .contact-link:hover {
-  color: #d0d0d0;
+  color: #d0d0d0 !important;
   text-decoration: underline;
 }
 
@@ -120,7 +126,7 @@ nav {
 }
 
 nav a {
-  color: #b8b8b8;
+  color: #b8b8b8 !important;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 20px;
@@ -129,11 +135,11 @@ nav a {
 }
 
 nav a:visited {
-  color: #989898;
+  color: #989898 !important;
 }
 
 nav a:hover {
-  color: #d0d0d0;
+  color: #d0d0d0 !important;
   text-decoration: underline;
 }
 
@@ -265,18 +271,18 @@ main {
 
 .post-content a,
 .content a {
-  color: #b8b8b8;
+  color: #b8b8b8 !important;
   text-decoration: underline;
 }
 
 .post-content a:visited,
 .content a:visited {
-  color: #989898;
+  color: #989898 !important;
 }
 
 .post-content a:hover,
 .content a:hover {
-  color: #d0d0d0;
+  color: #d0d0d0 !important;
   background-color: rgba(136, 136, 136, 0.2);
 }
 
@@ -343,17 +349,17 @@ main {
 }
 
 .keyword a {
-  color: #b8b8b8;
+  color: #b8b8b8 !important;
   text-decoration: none;
 }
 
 .keyword a:visited {
-  color: #989898;
+  color: #989898 !important;
 }
 
 .keyword a:hover {
   text-decoration: underline;
-  color: #d0d0d0;
+  color: #d0d0d0 !important;
 }
 
 .home-title,
@@ -385,20 +391,20 @@ main {
 .home-links p a,
 .content p a[href*="/blog"],
 .content p a[href*="/about"] {
-  color: #b8b8b8;
+  color: #b8b8b8 !important;
 }
 
 .home-links p a:visited,
 .content p a[href*="/blog"]:visited,
 .content p a[href*="/about"]:visited {
-  color: #989898;
+  color: #989898 !important;
 }
 
 .home-links p a:hover,
 .content p a[href*="/blog"]:hover,
 .content p a[href*="/about"]:hover {
   background-color: rgba(136, 136, 136, 0.3);
-  color: #d0d0d0;
+  color: #d0d0d0 !important;
   border-color: #b8b8b8;
 }
 
@@ -427,18 +433,18 @@ main {
 }
 
 .posts-list a {
-  color: #b8b8b8;
+  color: #b8b8b8 !important;
   text-decoration: none;
   font-size: 14px;
 }
 
 .posts-list a:visited {
-  color: #989898;
+  color: #989898 !important;
 }
 
 .posts-list a:hover {
   text-decoration: underline;
-  color: #d0d0d0;
+  color: #d0d0d0 !important;
 }
 
 .post-meta {

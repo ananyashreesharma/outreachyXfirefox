@@ -11,7 +11,7 @@ Welcome! This is my personal outreachy blog that documents my journey with Outre
 
 *December 07, 2024*
 
-> Hi, I'm Ananya (pronounced uh-NUN-yah).
+> Hi, I'm Anannya (pronounced uh-NUN-yah).
 
 ### WHO I AM
 
