@@ -11,8 +11,8 @@
     <header>
   
       <nav>
-        <a href="{{ site.baseurl }}/">BLOG</a>
-        <a href="{{ site.baseurl }}/#about">ABOUT</a>
+        <a href="{{ site.baseurl }}/blog">BLOG</a>
+        <a href="{{ site.baseurl }}/about">ABOUT</a>
       </nav>
     </header>
 
@@ -21,11 +21,11 @@
         {{ content }}
       </div>
       
+      {% if page.title == "Blog" %}
       <aside class="sidebar">
         <div class="keywords">
           <div class="keywords-title">JUMP TO</div>
           <div class="keyword"><a href="#introduce-yourself">Introduce Yourself</a></div>
-          <div class="keyword"><a href="#about">About</a></div>
           <div class="keyword"><a href="#everybody-struggles">Everybody Struggles</a></div>
           <div class="keyword"><a href="#think-about-your-audience">Think About Your Audience</a></div>
           <div class="keyword"><a href="#mid-point-progress">Mid-Point Progress</a></div>
@@ -33,6 +33,7 @@
           <div class="keyword"><a href="#final-progress">Final Progress</a></div>
         </div>
       </aside>
+      {% endif %}
     </main>
 
   </div>

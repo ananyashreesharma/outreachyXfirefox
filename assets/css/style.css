@@ -336,6 +336,27 @@ main {
   padding-bottom: 15px;
 }
 
+.home-links p a,
+.content p a[href*="/blog"],
+.content p a[href*="/about"] {
+  color: #c0c0c0;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  margin: 15px 10px 15px 0;
+  padding: 10px 20px;
+  border: 1px solid #888888;
+  transition: all 0.3s ease;
+}
+
+.home-links p a:hover,
+.content p a[href*="/blog"]:hover,
+.content p a[href*="/about"]:hover {
+  background-color: #888888;
+  color: #0a0a0a;
+  border-color: #c0c0c0;
+}
+
 .home-content {
   font-size: 14px;
   line-height: 1.8;
