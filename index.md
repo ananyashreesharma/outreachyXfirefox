@@ -44,7 +44,6 @@ My task is to expand those native error pages to cover common error types. I'll 
 
 **What I've been preparing before the official start:**
 
-Before the official start, I brushed up on:
 - Swift, UIKit and Redux-style state management
 - The native error page codebase
 - How the existing "no internet" implementation works
