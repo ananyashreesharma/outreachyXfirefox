@@ -1,4 +1,8 @@
-# My Outreachy Blog 🌌
+---
+layout: default
+---
+
+# MY OUTREACHY BLOG
 
 Welcome! This is my personal outreachy blog.  
 More posts coming soon!

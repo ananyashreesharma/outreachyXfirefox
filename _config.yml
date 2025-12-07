@@ -1,6 +1,5 @@
 title: My Outreachy Blog
 description: A blog documenting my journey with Outreachy and Mozilla Firefox
-theme: minima
 plugins:
   - jekyll-feed
 
