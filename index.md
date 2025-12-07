@@ -17,36 +17,27 @@ Welcome! This is my personal outreachy blog that documents my journey with Outre
 ### WHO I AM
 
 What drives me:
-- Working on things that are like **real impactful products**
+- Working on **real impactful products**
 - The intersection where **tech and art meet**
 - Thinking about **UX, feelings, and tiny details** while understanding **how everything is wired underneath**
 
-That mix is what pulled me towards FOSS and to Outreachy and Firefox.
+That mix pulled me towards FOSS, [Outreachy](https://www.outreachy.org/), and Firefox.
 
 ### WHY OUTREACHY
 
-The moment I read about Outreachy, it felt like home. Someone was quietly saying, **"you belong here"** and that feeling alone was enough to:
-- Show up
-- Apply
-- Keep going through all the stages
+Reading about [Outreachy's](https://www.outreachy.org/) program description gave me that **"you belong here"** feeling. That was enough to show up, apply, and keep going through all the stages. 
 
-The contribution period was really kind and encouraging and I liked getting a hold of Swift and UI Kit while also simultaneously making contributions
-
-In an environment like that, it's easy to imagine yourself contributing for a long time without burning out on doubt.
+During the contribution period, I got hands-on with Swift and UI Kit while making contributions. My mentors were available, patient, and genuinely helpful. In an environment like that, it's easy to see yourself contributing long term without burning out.
 
 ### WHY FIREFOX
 
-Before Outreachy, I was already experimenting with mobile dev. Firefox felt like a perfect match.
-
-It feels like I've found a new ocean and I just want to keep swimming deeper into it.
-
-Through this internship, I'm hoping to:
-- Learn a lot more about how impactful apps are designed and shipped
-- Find a community of like-minded people who care about users, openness, and good products
+I was already experimenting with mobile dev before Outreachy. Firefox felt like a perfect match. Through this internship with [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/), I'm hoping to:
+- Learn how impactful apps are designed and shipped
+- Find a community of like-minded people 
 
 ### THIS BLOG
 
-This blog is my small space to document that journey. Nothing fancy, just honest check-ins as I learn, build, and grow.
+This blog documents that journey. Nothing fancy, just honest check-ins as I learn, build, and grow.
 
 ---
 
