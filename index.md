@@ -41,6 +41,18 @@ This blog documents that journey. Nothing fancy, just honest check-ins as I lear
 
 ---
 
+## About {#about}
+
+Connect with me through my socials:
+
+- [GitHub](https://github.com/ananyashreesharma)
+- [Email](mailto:anannyashree1425@gmail.com) - anannyashree1425@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/anannyashree-sharma/)
+- [Twitter/X](https://x.com/anannyashree_)
+- [Personal Website](https://shree-ochre.vercel.app/)
+
+---
+
 ## Everybody Struggles {#everybody-struggles}
 
 *December 22, 2025*
