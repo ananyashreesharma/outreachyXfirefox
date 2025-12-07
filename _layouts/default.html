@@ -11,7 +11,7 @@
     <header>
   
       <nav>
-        <a href="{{ site.baseurl }}/blog">BLOG</a>
+        <a href="{{ site.baseurl }}/">BLOG</a>
         <a href="{{ site.baseurl }}/about">ABOUT</a>
       </nav>
     </header>
@@ -21,7 +21,7 @@
         {{ content }}
       </div>
       
-      {% if page.title == "Blog" %}
+      {% if page.title == "Blog" or page.url == "/" or page.url == "/outreachyXfirefox/" %}
       <aside class="sidebar">
         <div class="keywords">
           <div class="keywords-title">JUMP TO</div>
