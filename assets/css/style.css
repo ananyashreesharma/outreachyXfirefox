@@ -14,9 +14,9 @@ body {
   font-family: 'Share Tech Mono', 'Courier New', monospace;
   background: #0a0a0a;
   background-image: 
-    repeating-linear-gradient(0deg, rgba(201, 169, 97, 0.02) 0px, transparent 1px, transparent 2px, rgba(201, 169, 97, 0.02) 3px),
-    repeating-linear-gradient(90deg, rgba(201, 169, 97, 0.02) 0px, transparent 1px, transparent 2px, rgba(201, 169, 97, 0.02) 3px);
-  color: #c9a961;
+    repeating-linear-gradient(0deg, rgba(168, 168, 168, 0.02) 0px, transparent 1px, transparent 2px, rgba(168, 168, 168, 0.02) 3px),
+    repeating-linear-gradient(90deg, rgba(168, 168, 168, 0.02) 0px, transparent 1px, transparent 2px, rgba(168, 168, 168, 0.02) 3px);
+  color: #a8a8a8;
   line-height: 1.6;
   padding: 20px;
   min-height: 100vh;
@@ -31,8 +31,8 @@ body::before {
   width: 100%;
   height: 100%;
   background: 
-    radial-gradient(circle at 20% 50%, rgba(201, 169, 97, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(201, 169, 97, 0.03) 0%, transparent 50%);
+    radial-gradient(circle at 20% 50%, rgba(168, 168, 168, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(168, 168, 168, 0.03) 0%, transparent 50%);
   pointer-events: none;
   z-index: 0;
 }
@@ -45,7 +45,7 @@ body::before {
 }
 
 header {
-  border-bottom: 2px solid #c9a961;
+  border-bottom: 2px solid #888888;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
@@ -59,7 +59,7 @@ header {
 
 .site-title {
   font-size: 14px;
-  color: #c9a961;
+  color: #a8a8a8;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -72,13 +72,13 @@ header {
 
 .tagline {
   font-size: 12px;
-  color: #c9a961;
+  color: #a8a8a8;
   opacity: 0.8;
 }
 
 .contact-link {
   font-size: 14px;
-  color: #c9a961;
+  color: #a8a8a8;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -88,14 +88,14 @@ header {
 }
 
 nav {
-  border-top: 1px solid #c9a961;
-  border-bottom: 1px solid #c9a961;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
   padding: 10px 0;
   margin: 10px 0;
 }
 
 nav a {
-  color: #c9a961;
+  color: #a8a8a8;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 20px;
@@ -126,7 +126,7 @@ main {
 }
 
 .content em {
-  color: #b8860b;
+  color: #888888;
   font-style: normal;
 }
 
@@ -135,12 +135,12 @@ main {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  color: #c9a961;
+  color: #a8a8a8;
 }
 
 .post-date {
   font-size: 14px;
-  color: #c9a961;
+  color: #a8a8a8;
   opacity: 0.8;
   margin-bottom: 20px;
 }
@@ -148,7 +148,7 @@ main {
 .post-content {
   font-size: 14px;
   line-height: 1.8;
-  color: #c9a961;
+  color: #a8a8a8;
 }
 
 .post-content h1,
@@ -158,13 +158,13 @@ main {
   letter-spacing: 1px;
   margin-top: 30px;
   margin-bottom: 15px;
-  color: #c9a961;
+  color: #a8a8a8;
 }
 
 .post-content h2,
 .content h2 {
   font-size: 18px;
-  border-bottom: 1px solid #c9a961;
+  border-bottom: 1px solid #888888;
   padding-bottom: 5px;
   margin-top: 40px;
   scroll-margin-top: 20px;
@@ -178,7 +178,7 @@ main {
   font-size: 16px;
   margin-top: 25px;
   margin-bottom: 10px;
-  color: #c9a961;
+  color: #a8a8a8;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -188,27 +188,49 @@ main {
 }
 
 .post-content a {
-  color: #d4a574;
+  color: #c0c0c0;
   text-decoration: underline;
 }
 
 .post-content a:visited {
-  color: #b8860b;
+  color: #888888;
 }
 
 .post-content a:hover {
-  background-color: #c9a961;
+  background-color: #888888;
   color: #0a0a0a;
 }
 
 .post-content ul,
-.post-content ol {
+.post-content ol,
+.content ul,
+.content ol {
   margin-left: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  list-style: none;
 }
 
-.post-content li {
-  margin-bottom: 8px;
+.post-content li,
+.content li {
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+  line-height: 1.8;
+}
+
+.post-content li::before,
+.content li::before {
+  content: '> ';
+  position: absolute;
+  left: 0;
+  color: #c0c0c0;
+  font-weight: bold;
+}
+
+.post-content li strong,
+.content li strong {
+  color: #d0d0d0;
+  font-weight: bold;
 }
 
 .sidebar {
@@ -224,11 +246,11 @@ main {
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #c9a961;
+  color: #a8a8a8;
 }
 
 .keyword {
-  color: #c9a961;
+  color: #a8a8a8;
   margin-bottom: 8px;
   line-height: 1.6;
 }
@@ -238,17 +260,17 @@ main {
 }
 
 .keyword a {
-  color: #d4a574;
+  color: #c0c0c0;
   text-decoration: none;
 }
 
 .keyword a:visited {
-  color: #b8860b;
+  color: #888888;
 }
 
 .keyword a:hover {
   text-decoration: underline;
-  color: #e6c896;
+  color: #d0d0d0;
 }
 
 .home-title {
@@ -256,7 +278,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 20px;
-  color: #c9a961;
+  color: #a8a8a8;
 }
 
 .home-content {
@@ -280,33 +302,33 @@ main {
   content: '> ';
   position: absolute;
   left: 0;
-  color: #c9a961;
+  color: #a8a8a8;
 }
 
 .posts-list a {
-  color: #d4a574;
+  color: #c0c0c0;
   text-decoration: none;
   font-size: 14px;
 }
 
 .posts-list a:visited {
-  color: #b8860b;
+  color: #888888;
 }
 
 .posts-list a:hover {
   text-decoration: underline;
-  color: #e6c896;
+  color: #d0d0d0;
 }
 
 .post-meta {
   font-size: 12px;
-  color: #c9a961;
+  color: #a8a8a8;
   opacity: 0.7;
   margin-left: 10px;
 }
 
 footer {
-  border-top: 2px solid #c9a961;
+  border-top: 2px solid #888888;
   margin-top: 50px;
   padding-top: 20px;
   display: flex;
@@ -322,19 +344,19 @@ footer {
 .footer-title {
   font-size: 16px;
   font-weight: bold;
-  color: #c9a961;
+  color: #a8a8a8;
   margin-bottom: 5px;
 }
 
 .footer-subtitle {
   font-size: 12px;
-  color: #c9a961;
+  color: #a8a8a8;
   opacity: 0.7;
 }
 
 .footer-right {
   font-size: 12px;
-  color: #c9a961;
+  color: #a8a8a8;
   text-align: right;
   line-height: 1.6;
 }
@@ -356,7 +378,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 2px;
-  background: rgba(201, 169, 97, 0.08);
+  background: rgba(168, 168, 168, 0.08);
   animation: scanline 8s linear infinite;
   pointer-events: none;
   z-index: 9999;

@@ -4,29 +4,49 @@ layout: default
 
 # MY OUTREACHY BLOG
 
-Welcome! This is my personal outreachy blog.
+Welcome! This is my personal outreachy blog that documents my journey with Outreachy and Mozilla Firefox.
 
 ## Introduce Yourself {#introduce-yourself}
 
 *December 07, 2024*
 
+
+
 > Hi, I'm Ananya (pronounced uh-NUN-yah).
 
 ### WHO I AM
 
-I really like working on things that feel like actual products, not just pretty code that lives in a folder somewhere. I'm happiest where art and tech meet, thinking about UX, feelings, and tiny details, but also about how everything is wired underneath. That mix is what pulled me towards FOSS and to Outreachy and Firefox.
+What drives me:
+- Working on things that are like **real impactful products**
+- The intersection where **tech and art meet**
+- Thinking about **UX, feelings, and tiny details** while understanding **how everything is wired underneath**
+
+That mix is what pulled me towards FOSS and to Outreachy and Firefox.
 
 ### WHY OUTREACHY
 
-Outreachy honestly felt like home from the moment I read about it. It was like someone quietly saying, "you belong here" and even just that feeling was enough for me to show up, apply, and keep going through all the stages. The contribution period itself was really kind and encouraging. My mentors were available, patient, and genuinely helpful, and that made such a big difference. In an environment like that, it's easy to imagine yourself contributing for a long time without burning out on doubt.
+The moment I read about Outreachy, it felt like home. Someone was quietly saying, **"you belong here"** and that feeling alone was enough to:
+- Show up
+- Apply
+- Keep going through all the stages
+
+The contribution period was really kind and encouraging and I liked getting a hold of Swift and UI Kit while also simultaneously making contributions
+
+In an environment like that, it's easy to imagine yourself contributing for a long time without burning out on doubt.
 
 ### WHY FIREFOX
 
-Before that time, I was experimenting with mobile dev already, and Firefox felt like a perfect match. It feels like I've found a new ocean and I just want to keep swimming deeper into it. Through this internship, I'm hoping to learn a lot more about how impactful apps are designed and shipped, and to find a community of like-minded people who care about users, openness, and good products.
+Before Outreachy, I was already experimenting with mobile dev. Firefox felt like a perfect match.
+
+It feels like I've found a new ocean and I just want to keep swimming deeper into it.
+
+Through this internship, I'm hoping to:
+- Learn a lot more about how impactful apps are designed and shipped
+- Find a community of like-minded people who care about users, openness, and good products
 
 ### THIS BLOG
 
-This blog is my small space to document that journey, nothing fancy, just honest check-ins as I learn, build, and grow.
+This blog is my small space to document that journey. Nothing fancy, just honest check-ins as I learn, build, and grow.
 
 ---
 
@@ -34,7 +54,7 @@ This blog is my small space to document that journey, nothing fancy, just honest
 
 *December 22, 2025*
 
-blog content here...
+This section will be updated on *December 22, 2025*
 
 ---
 
@@ -42,7 +62,7 @@ blog content here...
 
 *January 05, 2026*
 
-blog content here...
+This section will be updated on *January 05, 2026*
 
 ---
 
@@ -50,7 +70,7 @@ blog content here...
 
 *January 19, 2026*
 
-blog content here...
+This section will be updated on *January 19, 2026*
 
 ---
 
@@ -58,7 +78,7 @@ blog content here...
 
 *February 02, 2026*
 
-blog content here...
+This section will be updated on *February 02, 2026*
 
 ---
 
@@ -66,4 +86,4 @@ blog content here...
 
 *March 02, 2026*
 
-Blog content here...
+This section will be updated on *March 02, 2026*
