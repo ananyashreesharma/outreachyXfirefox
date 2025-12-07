@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
 </head>
 <body>
   <div class="container">
@@ -14,11 +14,11 @@
           <div class="site-title site-title-large">{{ site.title }}</div>
           <div class="tagline">{{ site.description }}</div>
         </div>
-        <a href="/" class="contact-link">ABOUT</a>
+        <a href="{{ site.baseurl }}/" class="contact-link">ABOUT</a>
       </div>
       <nav>
-        <a href="/">HOME</a>
-        <a href="/">BLOG</a>
+        <a href="{{ site.baseurl }}/">HOME</a>
+        <a href="{{ site.baseurl }}/">BLOG</a>
       </nav>
     </header>
 
@@ -31,7 +31,7 @@
         <div class="keywords">
           <div class="keywords-title">RECENT POSTS</div>
           {% for post in site.posts limit:5 %}
-          <div class="keyword"><a href="{{ post.url }}">{{ post.title }}</a></div>
+          <div class="keyword"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
           {% endfor %}
         </div>
       </aside>
