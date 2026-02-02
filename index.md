@@ -32,11 +32,34 @@ During the contribution period, I got hands-on with Swift and UI Kit while makin
 
 I was already experimenting with mobile dev before Outreachy. Firefox felt like a perfect match. Through this internship with [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/), I'm hoping to:
 - Learn how impactful apps are designed and shipped
+<<<<<<< HEAD
 - Find a community of like-minded people 
 
 ### THIS BLOG
 
 This blog documents that journey. Nothing fancy, just honest check-ins as I learn, build, and grow.
+=======
+- Find a community of like-minded people
+
+**What I'll be working on:**
+
+My project focuses on Firefox's native error pages. When I explored the codebase, I found there's a "no internet connection" error page with a cute fox illustration that was disabled. I enabled it and tested it locally. Other errors still fall back to older HTML-based pages with technical wording that can be confusing.
+
+My task is to expand those native error pages to cover common error types. I'll be collaborating with UX and PM teams on clearer designs and their implementation.
+
+**What I've been preparing before the official start:**
+
+- Swift, UIKit and Redux-style state management
+- The native error page codebase
+- How the existing "no internet" implementation works
+- How other browsers (Safari, Chrome, Brave) handle their error pages
+
+
+
+### THIS BLOG
+
+This blog is where I'll share short, focused updates about the journey and my progress over time
+>>>>>>> 42cda5dab1153ce48e062aa680a8706f1c91fa25
 
 ---
 
@@ -45,6 +68,13 @@ This blog documents that journey. Nothing fancy, just honest check-ins as I lear
 *December 22, 2024*
 
 It’s been a really good couple of weeks so far. I’ve been easing into iOS development and trying to properly understand how Redux style state management works like unidirectional data flow, actions, reducers, and why predictable state actually makes a difference once a codebase grows. Along the way, I’ve been getting more familiar with Swift too, especially things like optionals, structs versus classes, and how the iOS lifecycle and data flow fit together. Seeing my changes show up in the Local Fennec build felt really nice, and I’m slowly getting more comfortable finding my way around both the iOS and Firefox codebases. The learning has been genuinely enjoyable, and it feels like something I’d be happy to keep doing
+
+<div class="blog-video-wrapper">
+  <video class="blog-video" controls>
+    <source src="{{ site.baseurl }}/assets/video/before.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ---
 
