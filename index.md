@@ -52,7 +52,34 @@ It’s been a really good couple of weeks so far. I’ve been easing into iOS de
 
 *January 05, 2026*
 
-This section will be updated on *January 05, 2026*
+I've been thinking about who I'm actually writing this blog for. At first, I assumed it was "for everyone," but that makes it hard to write anything at all. So I'm picking a few specific audiences and writing with them in my mind:
+
+### Future Me
+
+The version of me a few months from now who probably won't remember the messy parts about:
+- how long I overthought about a failed build because of a dependency on another file which was a part of the future PR
+- how confusing it felt to juggle multiple PRs that depended on each other
+- how I went back and forth between files just to understand one action's flow
+
+I'm writing this so I don't only remember the "merged" state, but also the messy middle like the build order notes, the scratch diagrams, the "what triggers what" scenarios.
+
+### New Contributors / Outreachy Applicants
+
+People who are at that new stage where I was when I started out and want to know my experience and what I'm learning on my way.
+- The work isn't just writing code. It's also understanding which PR unblocks which, when to split work, and how to not trap yourself in a dependency loop (still learning).
+- Overthinking usually just freezes you. Taking a breath, jotting down the chain of actions, and asking questions works better.
+- It's normal to feel like you're "bothering" mentors, but trust me you're not. I got stuck in a PR dependency loop, and my mentor handled it like a solvable problem. That moment shrunk the whole thing down to size.
+
+If you're reading this while trying to send your first patch or open your first PR: the panic when things don't line up in our mind is common. I've been there too.
+
+### Firefox iOS Contributors && Reviewers 
+
+This is me documenting how I'm learning the patterns here.
+- how to think in terms of actions, middleware, state, view instead of just a view controller
+- how to respect existing patterns and principles and learning about clean code practices
+- how build order and PR dependencies affect what is safe to land when
+
+I'm also learning that review isn't just about correctness, it's about keeping the codebase consistent. I'm trying to treat reviews as chances to learn the patterns, not just fix individual lines which might take longer than usual but teaches me a lot.
 
 ---
 
