@@ -114,11 +114,7 @@ Most of my work has been on the native error page flow, especially certificate-r
 - Certificate details UI: reusing the existing certificate viewer and making the link open reliably.
 - UI polish and consistency: layout in UX, typography via FXFontStyles, colors via theme tokens while keeping the Figma intent
 
-### What I learned 
-- (technical) - Predictable state(Redux) matters more as the codebase grows
-- (UX) - Details aren't just visual but behavioral
-
-### A hard moment (and what helped)
+### Stuck to Unstuck moments (and what helped)
 
 Debugging things that looked correct in code but behaved wrong in the app (for example a link not opening or content not scrolling) were confusing. What helped was thinking in terms of system: What input we have? What state we expect? What URLs are being generated? What does the UI need from that state? That moved me to targeted fixes.
 
