@@ -115,8 +115,8 @@ Most of my work has been on the native error page flow, especially certificate-r
 - UI polish and consistency: layout in UX, typography via FXFontStyles, colors via theme tokens while keeping the Figma intent
 
 ### What I learned 
-(technical) - Predictable state(Redux) matters more as the codebase grows
-(UX) - Details aren't just visual but behavioral
+- (technical) - Predictable state(Redux) matters more as the codebase grows
+- (UX) - Details aren't just visual but behavioral
 
 ### A hard moment (and what helped)
 
