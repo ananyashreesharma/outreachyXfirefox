@@ -32,14 +32,7 @@ During the contribution period, I got hands-on with Swift and UI Kit while makin
 
 I was already experimenting with mobile dev before Outreachy. Firefox felt like a perfect match. Through this internship with [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/), I'm hoping to:
 - Learn how impactful apps are designed and shipped
-<<<<<<< HEAD
 - Find a community of like-minded people 
-
-### THIS BLOG
-
-This blog documents that journey. Nothing fancy, just honest check-ins as I learn, build, and grow.
-=======
-- Find a community of like-minded people
 
 **What I'll be working on:**
 
@@ -59,7 +52,6 @@ My task is to expand those native error pages to cover common error types. I'll 
 ### THIS BLOG
 
 This blog is where I'll share short, focused updates about the journey and my progress over time
->>>>>>> 42cda5dab1153ce48e062aa680a8706f1c91fa25
 
 ---
 
