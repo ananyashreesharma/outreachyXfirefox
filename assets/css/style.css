@@ -541,13 +541,11 @@ body::after {
 
 .blog-video {
   width: 100%;
-  max-width: 340px;        /* phone-like width */
-  aspect-ratio: 9 / 19.5;  /* tall phone aspect */
+  max-width: 360px;        /* phone-like width */
   border-radius: 32px;
   border: 2px solid #444444;
   background: #000000;
   display: block;
   box-shadow: 0 0 0 4px #111111, 0 12px 30px rgba(0, 0, 0, 0.7);
-  object-fit: cover;
 }
 

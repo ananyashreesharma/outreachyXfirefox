@@ -69,12 +69,6 @@ This blog is where I'll share short, focused updates about the journey and my pr
 
 It’s been a really good couple of weeks so far. I’ve been easing into iOS development and trying to properly understand how Redux style state management works like unidirectional data flow, actions, reducers, and why predictable state actually makes a difference once a codebase grows. Along the way, I’ve been getting more familiar with Swift too, especially things like optionals, structs versus classes, and how the iOS lifecycle and data flow fit together. Seeing my changes show up in the Local Fennec build felt really nice, and I’m slowly getting more comfortable finding my way around both the iOS and Firefox codebases. The learning has been genuinely enjoyable, and it feels like something I’d be happy to keep doing
 
-<div class="blog-video-wrapper">
-  <video class="blog-video" controls>
-    <source src="{{ site.baseurl }}/assets/video/before.mov" type="video/quicktime">
-    Your browser does not support the video tag.
-  </video>
-</div>
 
 ---
 
@@ -117,7 +111,35 @@ I'm also learning that review isn't just about correctness, it's about keeping t
 
 *January 19, 2026*
 
-This section will be updated on *January 19, 2026*
+Halfway through, I’m noticing something that feels like progress in a very specific way... I’m not getting lost as easily anymore.
+
+### What I've been working on
+
+Most of my work has been on the native error page flow, especially certificate-related errors. It's been Redux and UI; making it look right, but also making it behave correctly and predictably.
+
+- Redux integration for error page actions: where actions are dispatched, how middleware handles them, and how to change things without breaking other flows.
+- Certificate exception / proceed flow: wiring up the "Proceed (Risky)" action so it works correctly for the current tab.
+- Certificate details UI: reusing the existing certificate viewer and making the link open reliably.
+- UI polish and consistency: layout in UX, typography via FXFontStyles, colors via theme tokens while keeping the Figma intent
+
+### What I learned 
+(technical) - Predictable state(Redux) matters more as the codebase grows
+(UX) - Details aren't just visual but behavioral
+
+### A hard moment (and what helped)
+
+Debugging things that looked correct in code but behaved wrong in the app (for example a link not opening or content not scrolling) were confusing. What helped was thinking in terms of system: What input we have? What state we expect? What URLs are being generated? What does the UI need from that state? That moved me to targeted fixes.
+
+### Before & after: certificate error UI
+
+I recorded a short video showing the certificate error flow before and after the changes. It should give a clearer sense of what changed.
+
+<div class="blog-video-wrapper">
+ <video class="blog-video" controls>
+   <source src="{{ site.baseurl }}/assets/video/before.mov" type="video/quicktime">
+   Your browser does not support the video tag.
+ </video>
+</div>
 
 ---
 
