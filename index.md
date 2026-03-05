@@ -122,18 +122,22 @@ Debugging things that looked correct in code but behaved wrong in the app (for e
 
 I recorded a short video showing the certificate error flow before and after the changes. It should give a clearer sense of what changed.
 
-<div class="blog-video-wrapper">
-  <video class="blog-video" controls>
-    <source src="{{ '/assets/video/before.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<div class="blog-video-wrapper">
-  <video class="blog-video" controls>
-    <source src="{{ '/assets/video/after.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<div class="before-after-videos">
+  <div class="blog-video-wrapper">
+    <span class="video-label">Before</span>
+    <video class="blog-video" controls>
+      <source src="{{ '/assets/video/before.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="before-after-arrow" aria-hidden="true">→</div>
+  <div class="blog-video-wrapper">
+    <span class="video-label">After</span>
+    <video class="blog-video" controls>
+      <source src="{{ '/assets/video/after.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 </div>
 
 ---

@@ -531,6 +531,51 @@ body::after {
   }
 }
 
+/* Before & after videos - side by side with arrow */
+.before-after-videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.before-after-videos .blog-video-wrapper {
+  flex: 1 1 280px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.before-after-videos .video-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #888888;
+  margin-bottom: 8px;
+}
+
+.before-after-arrow {
+  font-size: 48px;
+  color: #888888;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .before-after-videos {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .before-after-arrow {
+    transform: rotate(90deg);
+  }
+}
+
 /* Blog video - phone frame style */
 .blog-video-wrapper {
   margin-top: 20px;
