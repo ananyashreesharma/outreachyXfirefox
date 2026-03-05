@@ -146,7 +146,9 @@ I recorded a short video showing the certificate error flow before and after the
 
 *February 02, 2026*
 
-This section will be updated on *February 02, 2026*
+This internship made career feel more directional. I'd been into mobile dev and experimenting before Outreachy, but what I didn't have was a direction to lean into. After contributing to the Firefox iOS codebase and seeing the output on native error pages, I have something concrete to point to: Swift, UIKit, state management. I feel confident going into iOS development, and also think I could build something of my own. I'm planning to go deeper into iOS bit by bit and see where it leads.
+
+I want to keep contributing to open source and see how Mozilla and other orgs work, how community, mission, and code fit together, has been really affirming and it aligns with what I care about. I'm still figuring out the exact next step, but the imposter syndrome has reduced. If you're reading this while applying or contributing: an internship like this isn't just learning. It's a tangible example you can point to. That's the kind of thing that turns into real options in the future.
 
 ---
 
@@ -154,4 +156,24 @@ This section will be updated on *February 02, 2026*
 
 *March 02, 2026*
 
-This section will be updated on *March 02, 2026*
+### What's updated
+
+- **Native bad SSL / certificate error page** — When a site has a bad certificate users see a native error screen with clear copy and a security illustration instead of the old HTML page.
+- **Actions that work** — Users can **Go back**, **View certificate** (existing certificate viewer), **Learn more** (support link), and when safe (e.g. domain mismatch), **Proceed (Risky)**.
+- **Consistent UX** — Copy, typography, and theme tokens match the rest of the native error flow including an expandable "Advanced" section with technical details and warnings.
+
+### How it's built
+
+- **Error parsing and model** — `NativeErrorPageHelper` turns `NSError` and cert error codes into a single `ErrorPageModel` (title, description, image, advanced section, buttons). It distinguishes cases like `SSL_ERROR_BAD_CERT_DOMAIN` (show proceed) from other cert errors (generic, no proceed).
+- **Dedicated bad-cert UI** — `NativeErrorBadCertContentView` holds the advanced section, Go back, Proceed, View certificate, and Learn more. `NativeErrorPageViewController` switches between this and the regular content view based on the model.
+- **Redux flow** — `receivedError` → `errorPageLoaded` → middleware initializes from the model; `bypassCertificateWarning` is handled in `NativeErrorPageMiddleware` (cert store + `replaceLocation` on the web view).
+
+---
+
+## Message from the Author 
+
+I didn't want this internship to end, it's been one of the most meaningful stretches of learning and building I've had. I'm not treating it as done. I'll keep contributing to the codebase, deepening my understanding of the stack, and staying in touch with the community. Everyone I've worked with has been kind, patient, and genuinely invested in helping and that's the kind of environment I want to stay part of. Thank you, Mozilla Firefox and Outreachy.and to anyone reading this: if you're thinking about applying or contributing, this community is worth it!!
+
+<div class="blog-gif-wrapper">
+  <img src="/outreachyXfirefox/assets/images/firefox-fox.gif" alt="Firefox" class="blog-gif">
+A</div>

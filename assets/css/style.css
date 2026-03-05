@@ -610,3 +610,17 @@ body::after {
   box-shadow: 0 0 0 4px #111111, 0 12px 30px rgba(0, 0, 0, 0.7);
 }
 
+/* Blog GIF at end of post */
+.blog-gif-wrapper {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.blog-gif {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #444444;
+}
+
