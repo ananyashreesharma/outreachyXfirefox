@@ -124,14 +124,14 @@ I recorded a short video showing the certificate error flow before and after the
 
 <div class="blog-video-wrapper">
   <video class="blog-video" controls>
-    <source src="{{ site.baseurl }}/assets/video/before.mov" type="video/quicktime">
+    <source src="{{ '/assets/video/before.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
 
 <div class="blog-video-wrapper">
   <video class="blog-video" controls>
-    <source src="{{ site.baseurl }}/assets/video/after.mov" type="video/quicktime">
+    <source src="{{ '/assets/video/after.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
