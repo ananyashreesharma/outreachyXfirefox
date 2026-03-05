@@ -536,40 +536,56 @@ body::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
-  flex-wrap: wrap;
+  gap: 20px;
+  flex-wrap: nowrap;
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
 .before-after-videos .blog-video-wrapper {
-  flex: 1 1 280px;
-  max-width: 360px;
+  flex: 0 0 auto;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
 }
 
+.before-after-videos .blog-video {
+  width: 200px;
+  max-width: 200px;
+  border-radius: 20px;
+}
+
 .before-after-videos .video-label {
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #888888;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .before-after-arrow {
-  font-size: 48px;
-  color: #888888;
+  font-size: 56px;
+  color: #c0c0c0;
   flex-shrink: 0;
   line-height: 1;
+  margin: 0 8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .before-after-videos {
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 16px;
+  }
+  .before-after-videos .blog-video-wrapper {
+    width: 100%;
+    max-width: 280px;
+  }
+  .before-after-videos .blog-video {
+    width: 100%;
+    max-width: 280px;
   }
   .before-after-arrow {
     transform: rotate(90deg);
