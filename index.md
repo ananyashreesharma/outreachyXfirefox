@@ -123,10 +123,17 @@ Debugging things that looked correct in code but behaved wrong in the app (for e
 I recorded a short video showing the certificate error flow before and after the changes. It should give a clearer sense of what changed.
 
 <div class="blog-video-wrapper">
- <video class="blog-video" controls>
-   <source src="{{ site.baseurl }}/assets/video/before.mov" type="video/quicktime">
-   Your browser does not support the video tag.
- </video>
+  <video class="blog-video" controls>
+    <source src="{{ site.baseurl }}/assets/video/before.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="blog-video-wrapper">
+  <video class="blog-video" controls>
+    <source src="{{ site.baseurl }}/assets/video/after.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ---
